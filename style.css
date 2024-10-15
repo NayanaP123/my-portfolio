@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 3px;
+   
+    /* google fonts */
+    font-family: "Gowun Batang", serif;
+}
+#container{
+    width: 100%;
+    position: relative;
+    /* according to this we need to change position of others */
+    height: 100vh;
+    /* view port height */
+}
+
+#logo{
+    height: 40px;
+    width: 50px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+  
+    
+}
+
+
+/* aligh all list items in same line */
+.list-items{
+    display: inline;   
+}
+
+.links{
+    text-decoration: none;
+    margin-right: 120px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* hover---pseudoclass---- to define class
+tagname: pseudo class{
+}
+
+*/
+
+.links:hover{
+    color: rgb(38, 192, 51);
+    text-decoration: underline;
+}
+#uname{
+    font-family: "Dancing Script", cursive;
+    font-size:70px;
+}
+span{
+    font-family: "Dancing Script", cursive;
+    color: rgb(255, 166, 0);
+}
+
+.home-content{
+    margin-left: 70px;
+    margin-top: 170px;
+    /* if we give % then it will move according to parent position --here container has a position relative*/
+}
+div p{
+    font-family: "Gowun Batang", serif;
+    font-size: 20px;
+    color: rgb(67, 62, 62);
+
+}
+.buttonn{
+    
+    color: rgb(0, 0, 0);
+    background-color: rgb(249, 245, 12);
+    font-weight: bold;
+    font-size: 18px;
+    block-size: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-decoration: none;
+    position: relative;
+    top: 50px; /* Moves the button down by 20px */
+    
+    
+
+}
+
+.home-img{
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    bottom: 0;
+    right: 40px;
+   
+}
+
+.group{
+    position: absolute;
+    height: 100%;
+    /* to set upto parent div */
+    left: 0;
+    bottom: 0;
+    transition: left 2s,bottom 1s;
+    /* we need to set L&B firstly */
+}
+.home-img:hover #shape{
+    bottom: 25px;
+}
+#shape{
+    height: 600px;
+    width: 600px;
+}
+.home-img:hover #girl{
+    left: -30px;
+}
+
+#girl{
+    height: 450px;
+    width: 350px;
+    margin-left: 120px;
+    margin-bottom: 120px;
+}
+
+#hea{
+    font-size: 80px;
+    
+}
+.abimage{
+    width: 50%;
+    height: 10%
+}
+
+.heas{
+    text-align: center;
+}
+
+.abp{
+    display: flex;
+    margin-left: 50%;
+    margin-top: -500px;
+    text-align: justify;
+    
+
+    justify-content: space-between;
+    margin-right: 80px;
+   
+}
+
+.info-box{
+    margin-left: 750px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.skill{
+    margin-top: 110px;
+    text-align: center;
+    width: 100%;
+   
+   
+}
+
+.skills{
+    font-size: 60px;
+}
+
+#skills {
+    min-height: 100vh; /* Sets the height to at least the full viewport height */
+   
+}
+
+
+.skill-body{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* col gap, row gap, gap
+    
+    1rem=6 px
+    
+    auto---content width
+    1fr----equal--fraction unit*/
+
+    margin-top: 20px;
+    align-items: center;
+    gap: 2rem;
+
+
+}
+
+
+#spans{
+    margin-left: 440px;
+    /* display: flex; */
+    color: black;
+    font-family: "Gowun Batang", serif;
+    font-weight: 900;
+}
+
+#spans1{
+    margin-left: 459px;
+    /* display: flex; */
+    color: black;
+    font-family: "Gowun Batang", serif;
+    font-weight: 900;
+}
+#spans2{
+    margin-left: 431px;
+    /* display: flex; */
+    color: black;
+    font-family: "Gowun Batang", serif;
+    font-weight: 900;
+}
+#spans3{
+    margin-left: 431px;
+    /* display: flex; */
+    color: black;
+    font-family: "Gowun Batang", serif;
+    font-weight: 900;
+}
+
+.progress-bar{
+    margin-top: 80px;
+}
+ .bar{
+    position: relative;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+   
+ }
+
+.basebar{
+    width: 72%;
+    background-color: black;
+    height: 1px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+#basebar2{
+    background-color: rgb(255, 0, 0);
+    width: 63%;
+}
+
+#basebarcss{
+    background-color: rgb(255, 0, 0);
+    width: 57%;
+}
+
+#basebarr{
+    background-color: rgb(255, 0, 0);
+    width: 35%;
+}
+#basebarn{
+    background-color: rgb(255, 0, 0);
+    width: 50%;
+}
+
+.progress-bar{
+    margin-left: 130px;
+}
+
+.imgskill{
+    margin-left: 170px;
+}
+.sec-skill{
+    height: 800px;
+}
+
+
+.contactt{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(220, 236, 104);
+    border-radius: 50%;
+   
+
+    /* to align icon center of circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+
+/* linear gradient */
+.contactt:hover{
+    background-image: linear-gradient(to right,rgb(248, 187, 239),rgb(190, 240, 161));
+    animation: rotate 1s;
+}
+
+/* animation in css */
+@keyframes rotate {
+    0%{
+        /* move */
+        transform:rotate(30deg) ;
+    }
+    25%{
+        /* move ----transform*/
+        transform:rotate(-30deg) ;
+    }
+    50%{
+        /* move */
+        transform:rotate(30deg) ;
+    }
+    80%{
+        /* move */
+        transform:rotate(-30deg) ;
+    }
+    100%{
+        /* move */
+        transform:rotate(30deg) ;
+    }
+}
+
+
+
+
+
+.contactt i:hover{
+    color: rgb(236, 94, 226);
+}
+#iconn{
+    margin-left: 10px;
+
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.last{
+    text-align: center;
+    margin-top: 100px;
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+}
+.footer div{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(220, 236, 104);
+    border-radius: 50%;
+    margin-left: 1400px;
+    margin-top: -40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer div:hover{
+    background-image: linear-gradient(to right,rgb(248, 187, 239),rgb(190, 240, 161));
+    animation: rotate 1s;
+}
+.footer p{
+    margin-top: 150px;
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px; */
+
+    /* also can use float property */
+
+}
+#copyright{
+    text-align: center;
+}
+
+
+/* angle up---arrow */
+
+
+
+html{
+    scroll-behavior: smooth;
+    
+}
+/* style scrollbar */
+::-webkit-scrollbar{
+    width: 15px;
+    border-radius: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: bisque;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 15px;
+}
+
+
+body{
+    background-color: rgb(252, 252, 244);
+}
+
+/* hosting----------
+netlify------------   https://unrivaled-quokka-7adc23.netlify.app/
+
+
+github----Nayana@123456789
+ */

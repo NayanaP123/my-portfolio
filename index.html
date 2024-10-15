@@ -1,0 +1,214 @@
+<!-- give index.html as name of html page to host -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Gowun+Batang:wght@400;700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+        rel="stylesheet">
+    <!-- for icons---font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="container">
+
+        <!-- 1. Navbar -->
+        <nav>
+            <!-- remove bg----remove image background color -->
+            <img id="logo" src="./images/icons8-portfolio-50.png" alt="logo">
+
+            <!-- list items/link -->
+            <ul>
+                <li class="list-items"><a href="#home" class="links">Home</a></li>
+                <li class="list-items"><a href="#about" class="links">About</a></li>
+                <li class="list-items"><a href="#skills" class="links">Skills</a></li>
+                <li class="list-items"><a href="#contact" class="links">Contact</a></li>
+            </ul>
+
+            <!-- to make it to right apply flex to parent---nav -->
+        </nav>
+
+
+
+
+
+        <!-- container tag like div----section -->
+        <section id="home">
+            <div class="home-content">
+                <h1 id="uname">I'm <span>Nayana P</span></h1>
+                <br>
+                <!-- we can also choose a label insted of span -->
+                <p>I'm currently graduated in Computer Science and Engineering<br> from Rajiv Gandhi Institute of
+                    Technology, Kottayam.</p>
+                <!-- <button class="buttonn">Download CV</button> -->
+                <a class="buttonn" href="./Nayana P Resume.pdf" target="_blank" download="">Download CV</a>
+
+                <!-- to download --attribute-->
+            </div>
+
+            <div class="home-img">
+                <img class="group" id="shape" src="./images/orangee.png" alt="">
+                <img class="group" id="girl" src="./images/photo.png" alt="">
+
+            </div>
+        </section>
+
+
+
+
+
+    </div>
+
+
+    <section id="about">
+
+        <div class="heas">
+            <h1 id="hea"><span>About</span></h1>
+            </h1>
+            <h2 style="color: rgb(104, 27, 175);">Introduction</h2>
+        </div>
+
+        <div class="ab">
+            <div class="abimage">
+                <img style="height: 400px;width: 300px; margin-left: 190px;" src="./images/abimg.png" alt="">
+            </div>
+
+            <div class="abp">
+                <p style="margin-top: 80px;">I'm Nayana P, a Computer Science and Engineering student at RIT, Kottayam. I specialize in front-end
+                    development, Python, and UI/UX design. My projects include a Pseudostem Weevil Detector and a
+                    Netflix Clone. I'm skilled in problem-solving, communication, and leadership, with experience in
+                    ISTE RIT and certifications from NPTEL and IIT Madras. I'm passionate about using technology to
+                    create real-world solutions.</p>
+
+
+
+            </div>
+            <div class="info">
+                <div class="info-box">
+                    <i class="fa-solid fa-user"></i> <label>Nayana P</label>
+                    <br>
+                    <i class="fa-solid fa-phone" style="padding-top: 20px;"></i><label>(+91) 7593808797</label>
+                    <br>
+                    <i class="fa-solid fa-envelope"
+                        style="padding-top: 20px;"></i><label>nayanarajeendran2001@gmail.com</label>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="skills">
+
+        <div class="skill">
+            <h1  class="skills"><span>Skills</span></h1>
+            
+            <h2 style="color: rgb(104, 27, 175);">My Skills</h2>
+        </div>
+
+
+        <div class="skill-body">
+            <div class="progress-bar">
+                <!-- using grid -->
+
+                <div class="bar">
+                    <h3>HTML <span id="spans">90%</span></h3> 
+                    <!-- use flex -->
+
+                    <div class="basebar"></div>
+                    <div  class="basebar" id="basebar2"></div>
+                </div>
+                 
+
+
+
+                <div class="bar">
+                    <h3 >CSS <span id="spans1" class="new">80%</span></h3> 
+                    <!-- use flex -->
+
+                    <div class="basebar"></div>
+                    <div  class="basebar" id="basebarcss"></div>
+                </div>
+                 
+
+
+                <div class="bar">
+                    <h3>React JS <span id="spans2">50%</span></h3> 
+                    <!-- use flex -->
+
+                    <div class="basebar"></div>
+                    <div  class="basebar" id="basebarr"></div>
+                </div>
+                 
+
+
+
+                <div class="bar">
+                    <h3>Node JS <span id="spans3">75%</span></h3> 
+                    <!-- use flex -->
+
+                    <div class="basebar"></div>
+                    <div  class="basebar" id="basebarn"></div>
+                </div>
+                 
+                   
+                 
+
+            </div>
+            <div class="imgskill">
+                <img src="./images/skill.png" alt="">
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="contact">
+        <div class="heas">
+            <h1 id="hea"><span>Contact</span></h1>
+          
+            <h2 style="color: rgb(104, 27, 175);">My Contact</h2>
+        </div>
+
+        <div class="cont">
+            <div class="contactt" ><a href="https://www.linkedin.com/in/nayana-p/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
+            <div class="contactt" id="iconn"><a href="https://about.x.com/en/who-we-are/our-company" target="_blank"><i class="fa-brands fa-twitter"></i></a></div>
+            <div class="contactt" id="iconn"><a href="https://github.com/NayanaP123" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+            <div class="contactt" id="iconn"><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></div>
+            <div class="contactt" id="iconn"><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></div>
+
+
+
+        </div>
+        
+ 
+        
+    </section>
+
+    <footer class="footer">
+        <p id="copyright">&copy; My portfolio website, all rights are reserved to &reg;Nayana P</p>
+        <div><a href="#container"><i class="fa-solid fa-angle-up"></i></a></div>
+
+
+    </footer>
+
+
+</body>
+
+</html>
