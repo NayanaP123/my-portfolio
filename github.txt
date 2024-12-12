@@ -1,5 +1,0 @@
-git status
-
-
-git init-----create repo
-git add .-----add all files

@@ -193,7 +193,7 @@ div p{
 
 
 #spans{
-    margin-left: 440px;
+    margin-left: 330px;
     /* display: flex; */
     color: black;
     font-family: "Gowun Batang", serif;
@@ -201,21 +201,42 @@ div p{
 }
 
 #spans1{
-    margin-left: 459px;
+    margin-left: 350px;
     /* display: flex; */
     color: black;
     font-family: "Gowun Batang", serif;
     font-weight: 900;
 }
 #spans2{
-    margin-left: 431px;
+    margin-left: 300px;
     /* display: flex; */
     color: black;
     font-family: "Gowun Batang", serif;
     font-weight: 900;
 }
 #spans3{
-    margin-left: 431px;
+    margin-left: 350px;
+    /* display: flex; */
+    color: black;
+    font-family: "Gowun Batang", serif;
+    font-weight: 900;
+}
+#spans4{
+    margin-left: 330px;
+    /* display: flex; */
+    color: black;
+    font-family: "Gowun Batang", serif;
+    font-weight: 900;
+}
+#spans5{
+    margin-left: 310px;
+    /* display: flex; */
+    color: black;
+    font-family: "Gowun Batang", serif;
+    font-weight: 900;
+}
+#spans6{
+    margin-left: 300px;
     /* display: flex; */
     color: black;
     font-family: "Gowun Batang", serif;
@@ -418,3 +439,6 @@ netlify------------   https://unrivaled-quokka-7adc23.netlify.app/
 
 github----Nayana@123456789
  */
+
+
+ 
